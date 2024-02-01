@@ -1,0 +1,4 @@
+The portfolio site I created is a site that presents a sort of point of view on my life. On the site you can see the skills I acquired during my studies in high school and the academic center as well as in the army. You can see a few of the projects I did during the degree as well.
+During the work I got to know the whole world of animations and transitions, I learned how each characteristic can affect the visibility of the page or even a text or image. I learned to write and design code myself based on many inspirations I saw and searched on the Internet, but this was a difficult challenge, not every code works the first time and that's clear, but even these mistakes made me learn.
+Hope you enjoy my site,
+Or

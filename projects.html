@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Or Elbaz</div>
+        <div>
+          <ul class="nav-links">
+            <li><a href="./profil.html"> Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./exprience.html">Experience</a></li>
+            <li><a href="./projects.html">Projects</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <nav id="hamburger-nav">
+        <div class="logo">Or Elbaz</div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="./profil.html" onclick="toggleMenu()">Home</a></li>
+            <li><a href="./about.html " onclick="toggleMenu()">About</a></li>
+            <li><a href="./exprience.html" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="./projects.html" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="./contact.html" onclick="toggleMenu()">Contact</a></li>
+          </div>
+        </div>
+      </nav>
+      <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container ">
+              <div class="article-container">
+                <img
+                  class="project-img"
+                  src="./images/images2/glass store.png"
+                  alt="project-1"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Online Glasses Store</h2>
+             
+            </div>
+            <div class="details-container ">
+              <div class="article-container">
+                <img
+                  class="project-img"
+                  src="./images/images2/add file.png"
+                  alt="project-1"
+                />
+                
+              </div>
+              
+              <h2 class="experience-sub-title project-title">Search file details in the system</h2>
+            </div>
+            <div class="details-container">
+              <div class="article-container">
+            
+              <video controls>
+                <source src="images/images2/video-project3.mp4" type="video/mp4">
+                
+              </div>
+              <h2 class="experience-sub-title project-title">One of the promotional videos in collaboration with the hotels for a recommendation</h2>
+            </div>
+         
+        <script src="script.js"></script>
+</body>
+</html>

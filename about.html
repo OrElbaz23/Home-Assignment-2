@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Or Elbaz</div>
+        <div>
+          <ul class="nav-links">
+            <li><a href="./profil.html"> Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./exprience.html">Experience</a></li>
+            <li><a href="./projects.html">Projects</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <nav id="hamburger-nav">
+        <div class="logo">Or Elbaz</div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="./profil.html" onclick="toggleMenu()">Home</a></li>
+            <li><a href="./about.html " onclick="toggleMenu()">About</a></li>
+            <li><a href="./exprience.html" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="./projects.html" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="./contact.html" onclick="toggleMenu()">Contact</a></li>
+          </div>
+        </div>
+      </nav>
+      <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+          <div class="section__pic-container">
+            <img
+              class="about-pic"
+              src="images/images2/about3.jpeg"
+              alt="Profile Picture"
+            />
+          </div>
+          <div class="about-details-container">
+            <div class="about-containers">
+              <div class="details-container">
+                <img
+                  class="icon"
+                  src="./images/images2/school.png"
+                  alt="Experience icon"
+                />
+                <h3>Education</h3>
+                <p>High School Education<br>Majoring in communication and productions</p>
+              </div>
+              <div class="details-container">
+                <img
+                  class="icon"
+                  src="./images/images2/education1.png"
+                  alt="Education icon"
+                />
+                <h3>Education</h3>
+                <p>B.Sc. Industrial Engineering And Management Student at Ruppin Academic Center </p>
+              </div>
+            </div>
+            <div class="text-container">
+              <p>
+             Hi Everyone, I am Or (since 99'), I live in Nof Haglil,Israel. In addition to studying at the academic center, in my spare time I run my personal blog on instegram where I photograph content and places and recommend them to my followers.
+             <br>As part of the course at school, I acquired knowledge in professional photography and film editing so that the whole world of photography, design and editing is a part of me.
+             <br>The field of developing applications and websites is very interesting to me, so when I finish my degree I would like to work in this field.
+              </p>
+            </div>
+          
+       
+        <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Or Elbaz</div>
+        <div>
+          <ul class="nav-links">
+            <li><a href="./profil.html"> Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./exprience.html">Experience</a></li>
+            <li><a href="./projects.html">Projects</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <nav id="hamburger-nav">
+        <div class="logo">Or Elbaz</div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="./profil.html" onclick="toggleMenu()">Home</a></li>
+            <li><a href="./about.html " onclick="toggleMenu()">About</a></li>
+            <li><a href="./exprience.html" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="./projects.html" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="./contact.html" onclick="toggleMenu()">Contact</a></li>
+          </div>
+        </div>
+      </nav>
+      <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title"> Experience And Skills</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <h2 class="experience-sub-title">Areas Of Knowledge And Occupation</h2>
+              <div class="article-container">
+                <article>
+                  <img
+                    class="icon"
+                    src="./images/images2/film editor.png"
+                    alt="Experience icon"
+                  />
+                  <div>
+                    <h3>Film/video editing</h3>
+                    <p>As part of major studies in high school</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                  class="icon"
+                  src="images/images2/medical.png"
+                  alt="Experience icon"
+                />
+                  <div>
+                    <h3>Providing medical care</h3>
+                    <p>As part of my training as an army medic (Two years experience)</p>
+                  </div>
+                </article>
+                  </article>
+                
+              </div>
+            </div>
+            <div class="details-container">
+              <h2 class="experience-sub-title">Code Languages</h2>
+              <div class="article-container">
+                <article>
+                    <img
+                      class="icon"
+                      src="./images/images2/c-sharp.png"
+                      alt="Experience icon"
+                    />
+                    <div>
+                      <h3>C #</h3>
+                      <p>Experienced</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      class="icon"
+                      src="./images/images2/html.png"
+                      alt="Experience icon"
+                    />
+                    <div>
+                      <h3>HTML</h3>
+                      <p>Basic</p>
+                    </div>
+                  </article>
+                <article>
+                  <img
+                    class="icon"
+                    src="./images/images2/SQL1.png"
+                    alt="Experience icon"
+                  />
+                  <div>
+                    <h3>SQL</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    class="icon"
+                    src="./images/images2/Cpp.png"
+                    alt="Experience icon"
+                  />
+                 
+                  <div>
+                    <h3>Cpp</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          src="/assets/arrow.png"
+          class="icon arrow"
+          onclick="location.href='./#projects'"
+          alt=""
+        />
+      </section>
+      <script src="script.js"></script>
+</body>
+</html>
