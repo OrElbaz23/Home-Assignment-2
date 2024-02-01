@@ -186,7 +186,11 @@ a,
 .contact-info-upper-container,
 .details-container,
 .project-img {
-  border-radius: 2rem;
+  border-radius: 3rem;
+}
+
+.about-pic{
+  width: 160px;
 }
 
 .btn-color-1,
